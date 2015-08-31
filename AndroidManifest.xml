@@ -26,6 +26,8 @@
         </activity>
         <activity android:name="com.example.heqi.activity.WeatherActivity" >
         </activity>
+        <service android:name="com.example.heqi.service.AutoUpdateService"></service>
+        <receiver android:name="com.example.heqi.receiver.AutoUpdateReceiver"></receiver>
     </application>
 
 </manifest>
